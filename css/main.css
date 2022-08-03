@@ -1,0 +1,103 @@
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+main{
+  width:100%;
+  max-width:600px;
+  height:100%;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-gap:50px;
+  padding:0 20px;
+  margin:0 auto;
+}
+
+section{
+  text-align:center;
+}
+
+section.bottom{
+  justify-self: end;
+  padding:20px 0;
+}
+
+img.main-logo{
+  display:block;
+  width:100%;
+  max-width:600px;
+  margin:0 auto;
+}
+
+img.logo{
+  display:block;
+  width:100%;
+  max-width:200px;
+}
+
+h1{
+  font-size:35px;
+  color:#024488
+}
+
+h2{
+  font-size:30px;
+  color:#024488
+}
+
+h1,h2{
+  margin-top:50px;
+}
+
+a.button{
+  display:inline-block;
+  text-decoration: none;
+  padding:15px 10px;
+  font-size:20px;
+  background-color:#024488;
+  color:#fbb014;
+  margin:10px 0;
+  border:1px solid #fbb014;
+  width:100%;
+}
+
+a.home-button{
+  display:inline-block;
+  text-decoration: none;
+  padding:15px 30px;
+  font-size:15px;
+  background-color:#024488;
+  color:#fbb014;
+  border:1px solid #fbb014;
+}
+
+div.form-group{
+  margin:10px 0;
+}
+
+label.form-label{
+  text-align:left;
+  display:block;
+  color:#024488;
+}
+
+input.form-input,textarea.form-input{
+  display:inline-block;
+  padding:15px 10px;
+  font-size:20px;
+  border:1px solid darkgrey;
+  width:100%;
+}
+
+input[type='file']{
+  margin:10px 0;
+}
