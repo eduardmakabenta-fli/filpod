@@ -46,16 +46,19 @@ img.logo{
 
 h1{
   font-size:35px;
-  color:#024488
 }
 
 h2{
   font-size:30px;
-  color:#024488
 }
 
-h1,h2{
+h3{
+  font-size:60px;
+}
+
+h1,h2,h3{
   margin-top:50px;
+  color:#024488;
 }
 
 a.button{
