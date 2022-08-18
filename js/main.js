@@ -38,9 +38,7 @@ if(fileSubmit){
 
 
 function fileUploadValidation(element){
-  if(
-    element[0].value == '' ||
-  ){
+  if(element[0].value == ''){
     window.location.href = 'accreditation-process-pending.html';
   }
   else{
@@ -56,9 +54,7 @@ if(fileUpdate){
 }
 
 function fileUpdateValidation(element){
-  if(
-    element[0].value == '' ||
-  ){
+  if(element[0].value == ''){
     window.location.href = 'update-information-process-successful.html';
   }
   else{
