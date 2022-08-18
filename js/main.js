@@ -40,9 +40,6 @@ if(fileSubmit){
 function fileUploadValidation(element){
   if(
     element[0].value == '' ||
-    element[1].value == '' ||
-    element[2].value == '' ||
-    element[3].value == ''
   ){
     window.location.href = 'accreditation-process-pending.html';
   }
@@ -61,9 +58,6 @@ if(fileUpdate){
 function fileUpdateValidation(element){
   if(
     element[0].value == '' ||
-    element[1].value == '' ||
-    element[2].value == '' ||
-    element[3].value == ''
   ){
     window.location.href = 'update-information-process-successful.html';
   }
